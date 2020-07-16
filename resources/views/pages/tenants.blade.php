@@ -28,9 +28,8 @@
       .content {
       width: 50%;
       display: block;
-    margin-left: auto;
-    margin-right: auto
-      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
       border: 15px solid green;
       padding: 50px;
       margin: 20px;
