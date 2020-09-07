@@ -13,20 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-// Route::get('hello', function () {
-//     echo 'hello';
-// });
 
-// Route::get('/about', function () {
-//     return view('pages.about');
-// });
 
 Route::get('tenants/{id}', 'PagesController@index');
 
-// Route::get('/tenants/{id}', function ($id) {
-//     return 'This is user '.$id;
-// });
+Route::get('tenants', 'PagesController@home');
+
